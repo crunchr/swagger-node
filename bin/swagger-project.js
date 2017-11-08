@@ -52,6 +52,7 @@ app
   .option('-s, --silent', 'do not open the browser')
   .option('--host <host>', 'the hostname the editor is served from')
   .option('-p, --port <port>', 'the port the editor is served from')
+  .option('-f, --swagger-file <path>', 'path to the swagger definition to edit')
   .action(execute(project.edit));
 
 app
